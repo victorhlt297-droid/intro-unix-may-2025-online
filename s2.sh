@@ -14,5 +14,20 @@ pwd
 cd
 #ruta absoluta: ruta completa desde la raíz del sistema (\).
 #ruta relativa:ruta basada en la ubicación actual (no tiene la ruta completa).
-#lista archivos y directorios en el escritorio actual
+#lista archivos y directorios en el directorio actual
 ls 
+# lista archivos y directorios en el directorio actual y 
+#la opcion -a es all de muestrame todo (incluyendo archivos y 
+#directorios ocultos)
+ls -a 
+#cambio de directorio al directorio raiz de linux
+cd /
+#cambio de directorio al directorio de binarios linux
+#ruta absoluta
+cd /bin
+#ruta relativa
+cd bin
+#
+sudo cp /workspaces/intro-unix-may-2025-online/hola_binario /bin/hola_binario
+#make directory
+mkdir nuevo directorio
