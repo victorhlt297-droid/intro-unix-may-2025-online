@@ -66,4 +66,4 @@ cp -r papucho destino/
 #mueve el archivo HIJITO al directorio actual.
 mv destino/papucho/HIJITO .
 #muestra los archivos y carpetas dentro del directorio destino/papucho.
-ls destino/papucho
+ls destino/
